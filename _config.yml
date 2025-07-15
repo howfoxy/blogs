@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal   # This is just an example, feel free to choose a different theme
+
+# Optional: Enable dark mode
+dark_mode: true
