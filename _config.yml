@@ -4,16 +4,15 @@ email: austin@forensic.zip
 description: >-
   The fox lurks along the horizon
 url: "https://howfoxy.com"
-baseurl: "" # howfoxy.com is a user/organization page, so baseurl should be empty
+baseurl: "" # For user/organization pages like howfoxy.com, this should be empty
 
 # Theme settings
-# Using remote_theme for Modernist as specified in your original config
-remote_theme: pages-themes/modernist@v0.2.0
-show_downloads: false
+# Set the theme directly to jekyll-theme-cayman
+theme: jekyll-theme-cayman
+show_downloads: false # This setting is generally for other themes, but doesn't hurt to leave if you had it.
 
-# Plugins section - COMBINED AND CORRECTED
+# Plugins section
 plugins:
-  - jekyll-remote-theme # This is needed when using remote_theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
