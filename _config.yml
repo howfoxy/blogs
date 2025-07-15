@@ -1,4 +1,15 @@
-theme: jekyll-theme-minimal   # This is just an example, feel free to choose a different theme
+# Site settings
+title: Howfoxy
+email: austin@forensic.zip
+description: >-
+  The fox lurks along the horizon
+url: "https://howfoxy.com"
 
-# Optional: Enable dark mode
-dark_mode: true
+# Theme settings
+theme: jekyll-theme-cayman # This is the crucial line!
+
+# NEW: Plugins section
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
